@@ -17,5 +17,4 @@ datasource db {
 model Teste{
   id String    @id @default(cuid())
   msg String
-  pessoa String?
 }
